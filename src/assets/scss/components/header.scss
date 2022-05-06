@@ -1,1 +1,35 @@
-header {}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  margin-bottom: 68px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-item {
+  padding-right: 40px;
+}
+
+.nav-link{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #222222;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+}
+
+.link-acount {
+  padding-right: 24px;
+}
+
+.link-menu {
+  padding-left: 24px;
+}

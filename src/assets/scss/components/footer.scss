@@ -1,0 +1,115 @@
+.footer {
+  background: #FAFAFA;
+  margin-top: 130px;
+}
+
+.footer__email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 109px;
+    padding-bottom: 59px;
+    border-bottom: 1px solid #DDDDDD;;
+
+  &__text {
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 46px;
+      color: #222222;
+  }
+  &__form {
+    position: relative;
+
+  }
+  &__field {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #555555;
+    max-width: 386px;
+    padding: 18px 288px 18px 18px;
+    border: none;
+
+  }
+  &__btn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #402F2C;
+    padding: 10px 19px 10px 20px;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+  }
+}
+
+.footer__info {
+  display: flex;
+  justify-content: space-around;
+
+  &__logo {
+    max-width: 326px;
+    margin-top: 59px;
+    margin-bottom: 46px;
+  }
+  &__text {
+    margin-top: 38px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #555555;
+  }
+  &__links {
+    margin-top: 84px;
+  }
+
+  &__contact {
+    margin-top: 84px;
+  }
+}
+.link-item {
+  padding-bottom: 20px;
+}
+
+.link-item:first-child {
+  padding-bottom: 39px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #222222;
+}
+.footer-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #222222;
+}
+.contact-item {
+  padding-bottom: 20px;
+}
+
+.contact-item:first-child {
+  padding-bottom: 39px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #222222;
+}
+
+.contact-item:last-child {
+  max-width: 92px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-item-info {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #222222;
+}
+
+

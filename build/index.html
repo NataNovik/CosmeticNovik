@@ -8,20 +8,22 @@
     <link rel="stylesheet" href="./assets/css/app.css">
   </head>
   <body>
-    <div class="container header"><a href="#"><img src="./assets/imgs/logo.svg" alt="logo"></a>
-      <nav>
-        <ul class="nav">
-          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+    <div class="header">
+      <div class="header-inner container"><a href="#"><img src="./assets/imgs/logo.svg" alt="logo"></a>
+        <nav>
+          <ul class="nav">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+        <ul class="menu">
+          <li class="menu-item"><a class="link-acount" href="#"><img src="./assets/imgs/men.svg" alt="men"></a></li>
+          <li class="menu-item"><a class="link-buy" href="#"><img src="./assets/imgs/buy.svg" alt="buy"></a></li>
+          <li class="menu-item"><a class="link-menu" href="#"><img src="./assets/imgs/frame.svg" alt="frame"></a></li>
         </ul>
-      </nav>
-      <ul class="menu">
-        <li class="menu-item"><a class="link-acount" href="#"><img src="./assets/imgs/men.svg" alt="men"></a></li>
-        <li class="menu-item"><a class="link-buy" href="#"><img src="./assets/imgs/buy.svg" alt="buy"></a></li>
-        <li class="menu-item"><a class="link-menu" href="#"><img src="./assets/imgs/frame.svg" alt="frame"></a></li>
-      </ul>
+      </div>
     </div>
     <div class="main">
       <div class="container main__row">
@@ -29,14 +31,13 @@
           <h1 class="main__title">Get Your Best Cosmetic Products Here</h1>
           <p class="main__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
           <form class="main__form">
-            <inpu>(type='text'; placeholder="Search...").main__field
-              <button class="main__form-btn"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="32" height="32" fill="#402F2C"/>
+            <input class="main__field" type="text" placeholder="Search...">
+            <button class="main__form-btn"><svg width="40" height="40" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="40" height="40" fill="#402F2C"/>
 <circle cx="15.8444" cy="15.8444" r="5.99237" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M20.0122 20.3235L22.3616 22.6667" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
-              </button>
-            </inpu>
+            </button>
           </form>
           <button class="main__btn">Shop Now</button>
         </div>
@@ -60,6 +61,102 @@
         <li><img src="./assets/imgs/icon5.svg" alt="icon5"></li>
         <li><img src="./assets/imgs/icon6.svg" alt="icon6"></li>
       </ul>
+    </div>
+    <div class="container product">
+      <div class="product__header">
+        <div class="product__text">
+          <h1 class="product__title">Our Porular Product</h1>
+          <p class="product__paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+        </div>
+        <div class="product__link"><a class="product__link__text" href="#">Discover Our Products</a><span class="arrow"><img src="./assets/imgs/arrow.svg" alt="arrow"></span></div>
+      </div>
+      <div class="product__item">
+        <div class="product__content"><img class="product__content__img" src="./assets/imgs/product1.jpg" alt="product1">
+          <h1 class="product__content__title">Cosmetic products</h1>
+          <p class="product__content__txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+          <div class="product__content__footer">
+            <div class="product__content__footer-btns">
+              <button class="main__btn">Buy Now</button>
+              <button class="product__content__btn">Add To Cart</button>
+            </div><span class="product__content__cash">$120</span>
+          </div>
+        </div>
+        <div class="product__content"><img class="product__content__img" src="./assets/imgs/product2.jpg" alt="product1">
+          <h1 class="product__content__title">Cosmetic products</h1>
+          <p class="product__content__txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+          <div class="product__content__footer">
+            <div class="product__content__footer-btns">
+              <button class="main__btn">Buy Now</button>
+              <button class="product__content__btn">Add To Cart</button>
+            </div><span class="product__content__cash">$120</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="aside">
+      <div class="container aside__items">
+        <div class="aside__item"><img class="aside__item__img" src="./assets/imgs/aside1.svg" alt="aside1">
+          <h1 class="aside__item__text">Organic Products</h1>
+        </div>
+        <div class="aside__item"><img class="aside__item__img" src="./assets/imgs/aside2.svg" alt="aside2">
+          <h1 class="aside__item__text">Yearly Sales</h1>
+        </div>
+        <div class="aside__item"><img class="aside__item__img" src="./assets/imgs/aside3.svg" alt="aside3">
+          <h1 class="aside__item__text">Happy Customar</h1>
+        </div>
+      </div>
+    </div>
+    <div class="content container">
+      <div class="content__text">
+        <h1 class="content__text__title">The Perfect Beauty Of You</h1>
+        <p class="content__text__paragraph1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <p class="content__text__paragraph2">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <button class="main__btn">Shop Now</button>
+      </div>
+      <div class="content__text__img"><img src="./assets/imgs/product3.jpg" alt="product3"></div>
+    </div>
+    <div class="swiper container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="swiper-slide-img"></div><img src="./assets/imgs/foto.jpg" alt="foto">
+          <div class="swiper-slide-text">
+            <h1 class="swiper-title">Amazing Cosmetic</h1><img src="./assets/imgs/star.svg" alt="star">
+            <p class="swiper-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book<img class="swiper-quotes" src="./assets/imgs/quotes.svg" alt="quotes"><img class="swiper-quotes2" src="./assets/imgs/quotes2.svg" alt="quotes2"></p>
+            <h1 class="swiper-name">Rusmin Islam</h1>
+            <h2 class="swiper-profession">Designer</h2>
+          </div>
+          <div class="swiper-button-prev btn-prev"></div>
+          <div class="swiper-button-next btn-next"></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer__inner container">
+        <div class="footer__email">
+          <p class="footer__email__text">Subscribe to Get Our Letest News</p>
+          <form class="footer__email__form">
+            <input class="footer__email__field" type="text" placeholder="Enter email">
+            <button class="footer__email__btn">Subscribe</button>
+          </form>
+        </div>
+        <div class="footer__info">
+          <div class="footer__info__logo"><img class="footer__info__img" src="./assets/imgs/logo.svg" alt="logo">
+            <p class="footer__info__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+          </div>
+          <ul class="footer__info__links">
+            <li class="link-item">Quick Link</li>
+            <li class="link-item"><a class="footer-link" href="#">Home</a></li>
+            <li class="link-item"><a class="footer-link" href="#">Products</a></li>
+            <li class="link-item"><a class="footer-link" href="#">About Us</a></li>
+          </ul>
+          <ul class="footer__info__contact">
+            <li class="contact-item">Contact Us</li>
+            <li class="contact-item"><a class="contact-item-info" href="mailto:oyasimnaeem@email.com">oyasimnaeem@email.com</a></li>
+            <li class="contact-item"><a class="contact-item-info" href="tel:+123456789">+123456789</a></li>
+            <li class="contact-item"><a href="#"><img src="./assets/imgs/facebook.svg" alt="facebook"></a><a href="#"><img src="./assets/imgs/twitter.svg" alt="twitter"></a><a href="#"><img src="./assets/imgs/insta.svg" alt="insta"></a></li>
+          </ul>
+        </div>
+      </div>
     </div>
     <script src="./assets/js/vendors.min.js"></script>
     <script src="./assets/js/app.js"></script>

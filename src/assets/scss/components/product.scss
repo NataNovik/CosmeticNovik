@@ -1,0 +1,95 @@
+.product {
+  margin-top: 130px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__text {
+    max-width: 714px;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+
+  &__paragraph {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #555555;
+    margin-bottom: 60px;
+  }
+
+  &__link__text {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #222222;
+  }
+  &__content {
+    max-width: 600px;
+    border: 1px solid rgba(104, 90, 82, 0.19);
+    margin-bottom: 130px;
+    &__title {
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 60px;
+      color: #222222;
+      margin-top: 20px;
+      margin-bottom: 16px;
+      padding-left: 32px;
+      font-family: 'Red Hat Display';
+      font-style: normal;
+    }
+    &__txt {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 32px;
+      color: #555555;
+      margin-bottom: 48px;
+      padding-left: 32px;
+    }
+    &__footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 32px;
+      padding-right: 32px;
+      margin-bottom: 32px;
+    }
+    &__btn {
+      padding: 16px 32px;
+      background: white;
+      border: 1px solid rgba(104, 90, 82, 0.46);
+      color: #402F2C;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px;
+      margin-left: 24px;
+    }
+    &__cash {
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 32px;
+      color: #222222;
+    }
+  }
+  &__item {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.arrow {
+  margin-left: 8px;
+}
+
+
+

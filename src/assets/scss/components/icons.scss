@@ -8,6 +8,27 @@
     border-bottom: 1px solid #EEEEEE;
     padding: 44px 34px 44px 34px;
   }
+}
 
+@media (min-width: 1024px) and (max-width: 1239.75px) {
+  .icons__row {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023.75px) {
+  .icons__row {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767.75px) {
+  .icons__row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 30px;
+
+  }
 }
 

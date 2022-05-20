@@ -41,6 +41,7 @@
     position: absolute;
     top: 6px;
     right: 6px;
+    cursor: pointer;
   }
 }
 
@@ -86,6 +87,11 @@
   line-height: 20px;
   color: #222222;
 }
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
 .contact-item {
   padding-bottom: 20px;
 }
@@ -112,4 +118,110 @@
   color: #222222;
 }
 
+.contact-item-info:hover {
+  color: cadetblue;
+}
+
+@media (min-width: 1024px) and (max-width: 1239.75px){
+  .footer {
+    margin-top: 50px;
+  }
+  .footer__email__text {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023.75px) {
+  .footer {
+    margin-top: 50px;
+
+    &__email {
+      padding-top: 50px;
+      &__text {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767.75px) {
+  .footer {
+    margin-top: 50px;
+  }
+  .footer__email {
+    flex-wrap: wrap;
+    padding: 30px 0 20px;
+    &__form {
+      max-width: 290px;
+    }
+    &__text {
+      font-size: 18px;
+    }
+    &__btn {
+      font-size: 5px;
+      line-height: 10px;
+      padding: 5px 10px;
+    }
+    &__field {
+      font-size: 10px;
+      line-height: 15px;
+      padding: 10px 150px 10px 10px;
+    }
+  }
+  .footer__info {
+    display: block;
+    &__logo {
+      margin-top: 20px;
+      margin-bottom: 0;
+      text-align: center;
+    }
+    &__text {
+      margin-top: 10px;
+      font-size: 10px;
+      line-height: 15px;
+      text-align: center;
+    }
+    &__links {
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+    &__contact {
+      margin-top: 10px;
+    }
+    &__img {
+      justify-content: center;
+    }
+  }
+  .footer-link {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .link-item {
+    padding-bottom: 0;
+  }
+  .link-item:first-child {
+    padding-bottom: 0;
+    font-size: 15px;
+  }
+  .contact-item {
+    padding-bottom: 5px;
+    text-align: center;
+    &-info {
+      font-size: 10px;
+    }
+    &-tw {
+      padding: 0 10px;
+    }
+  }
+  .contact-item:first-child {
+    padding-bottom: 8px;
+    font-size: 18px;
+  }
+  .contact-item:last-child {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
 

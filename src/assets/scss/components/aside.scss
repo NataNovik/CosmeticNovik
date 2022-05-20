@@ -26,4 +26,42 @@
     }
 }
 
+@media (min-width: 768px) and (max-width: 1023.75px) {
+  .aside__items {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767.75px) {
+  .aside {
+    margin-top: 30px;
+
+  }
+  .aside__items {
+    display: block;
+    padding: 0;
+  }
+  .aside__item {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 20px;
+
+  }
+  .aside__item__img {
+    width: 50px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  .aside__item__text {
+    padding-left: 15px;
+    font-size: 15px;
+  }
+  .aside__item:first-child {
+    padding-top: 20px;
+  }
+}
+
 

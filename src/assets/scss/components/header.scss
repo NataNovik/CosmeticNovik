@@ -25,6 +25,10 @@
   text-decoration: none;
 }
 
+.nav-link:hover {
+  text-decoration: underline;
+}
+
 .menu {
   display: flex;
 }
@@ -36,3 +40,20 @@
 .link-menu {
   padding-left: 24px;
 }
+
+@media (min-width: 768px) and (max-width: 1023.75px) {
+  .header-inner {
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767.75px) {
+  .nav {
+    display: none;
+  }
+  .header-inner {
+    padding-bottom: 0;
+    padding-top: 20px;
+  }
+}
+

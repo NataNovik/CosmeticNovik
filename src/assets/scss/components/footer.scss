@@ -9,7 +9,7 @@
     align-items: center;
     padding-top: 109px;
     padding-bottom: 59px;
-    border-bottom: 1px solid #DDDDDD;;
+    border-bottom: 1px solid #DDDDDD;
 
   &__text {
       font-weight: 500;
@@ -25,12 +25,15 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-    color: #555555;
+    color: #222222;
     max-width: 386px;
     padding: 18px 288px 18px 18px;
     border: none;
-
   }
+  &__field::placeholder {
+    color: #555555;
+  }
+
   &__btn {
     font-weight: 500;
     font-size: 14px;

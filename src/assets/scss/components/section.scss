@@ -1,4 +1,4 @@
-.main {
+.section {
   background: #F9F6F5;
   overflow: hidden;
 
@@ -47,10 +47,13 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    color: #999999;
+    color: #222222;
     display: block;
     width: 100%;
     border: none;
+  }
+  &__field::placeholder {
+    color: rgba(153, 153, 153, 1);
   }
 
   &__slider {
@@ -96,7 +99,7 @@
 }
 
 @media (min-width: 1024px) and (max-width: 1239.75px) {
-  .main {
+  .section {
     &__title {
       font-size: 40px;
     }
@@ -111,63 +114,76 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023.75px) {
-  .main__row {
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
-  }
-  .main__title {
-    font-size: 40px;
-  }
-  .main__text {
-    max-width: 100%;
-  }
-  .swiper-main {
-    margin-top: 50px;
+  .section {
+    &__row {
+      grid-template-columns: 100%;
+      grid-template-rows: auto;
+    }
+
+    &__title {
+      font-size: 40px;
+    }
+
+    &__text {
+      max-width: 100%;
+    }
   }
 }
 
 @media (min-width: 320px) and (max-width: 767.75px) {
-  .main__row {
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
+  .section {
+    &__row {
+      grid-template-columns: 100%;
+      grid-template-rows: auto;
+    }
+
+    &__title {
+      font-size: 20px;
+      line-height: 25px;
+      padding: 20px 0;
+    }
+
+    &__text {
+      max-width: 100%;
+      font-size: 15px;
+      line-height: 20px;
+    }
   }
-  .main__title {
-    font-size: 20px;
-    line-height: 25px;
-    padding: 20px 0;
-  }
-  .main__text {
-    max-width: 100%;
-    font-size: 15px;
-    line-height: 20px;
-  }
+
   .swiper-img {
     width: 300px;
   }
+
   .swiper-button-next:after {
     font-size: 15px;
   }
+
   .swiper-button-prev:after {
     font-size: 15px;
   }
+
   .swiper-button-prev {
     bottom: 10px;
   }
+
   .swiper-button-next {
     bottom: 10px;
     left: 50px;
   }
-  .main__btn {
+
+  .section__btn {
     font-size: 10px;
     line-height: 15px;
     padding: 8px 15px;
   }
-  .main__field {
+
+  .section__field {
     padding: 10px 45px 10px 10px;
     font-size: 8px;
     line-height: 15px;
   }
-  .main__form {
+
+  .section__form {
     margin-bottom: 30px;
     &-btn {
       top: 4px;

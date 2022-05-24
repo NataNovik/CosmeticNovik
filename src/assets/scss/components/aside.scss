@@ -19,17 +19,16 @@
     box-shadow: 0 4px rgba(0, 0, 0, 0.25);
   }
   &__item__text {
-      font-weight: 400;
-      font-size: 24px;
-      line-height: 30px;
-      color: #555555;
-    }
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #555555;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023.75px) {
   .aside__items {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px 100px;
     margin-top: 50px;
   }
 }
@@ -37,7 +36,6 @@
 @media (min-width: 320px) and (max-width: 767.75px) {
   .aside {
     margin-top: 30px;
-
   }
   .aside__items {
     display: block;
@@ -47,7 +45,6 @@
     display: flex;
     justify-content: center;
     padding: 0 0 20px;
-
   }
   .aside__item__img {
     width: 50px;
